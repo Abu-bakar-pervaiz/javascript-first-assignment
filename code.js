@@ -1,5 +1,5 @@
-function temp_converter() {
-	var C_temp=document.getElementById('input').value
-	var F_temp=32+(9/5)*C_temp
-	document.getElementById('results').innerHTML="Your Temperature In Fahrenheit is :" + parseInt(F_temp) 
+function inch_to_cm_converter() {
+	var I_len=document.getElementById('input').value
+	var C_len=(2.54*I_len)
+	document.getElementById('results').innerHTML="Your Length In Centimeters is :" + parseFloat(C_len) 
 }
